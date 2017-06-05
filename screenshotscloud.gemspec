@@ -2,7 +2,7 @@ Gem::Specification.new do |spec|
   spec.name        = 'screenshotscloud'
   spec.version     = '1.0.0'
   spec.date        = '2017-05-01'
-  spec.summary     = "Get high quality screenshots using a real browser in seconds using our reliable CDN backed service"
+  spec.summary     = "Get high quality screenshots using a real browser in seconds using our reliable CDN backed API service"
   spec.description = "ScreenshotsCloud ruby screenshot generator"
   spec.authors     = ["Chris Hutchinson"]
   spec.email       = 'chris@brushd.com'
