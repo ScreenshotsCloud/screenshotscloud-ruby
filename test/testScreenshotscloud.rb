@@ -6,9 +6,9 @@ class TestScreenshotscloud < Test::Unit::TestCase
 		screenshotscloud = ScreenshotsCloud.new("my-key-generated-at-screenshots-dot-cloud", "mysecretstringgeneratedatscreenshotsdotcloud");
 
 		url = screenshotscloud.screenshotUrl({
-			"url" => "maps.google.com"
+			"url" => "bbc.com/news"
 		})
 
-		assert(url == "https://api.screenshots.cloud/v1/screenshot/my-key-generated-at-screenshots-dot-cloud/20bc07c6b9d6875ddce3d7b69dbacac3c0ca3c7a?url=maps.google.com", "Expected output does not match")
+		assert(url == "https://api.screenshots.cloud/v1/screenshot/my-key-generated-at-screenshots-dot-cloud/3fc4e5cd418052343e3dc61b2eaf17bec53adaeb?url=bbc.com%2Fnews", "Expected output does not match")
 	end
 end
